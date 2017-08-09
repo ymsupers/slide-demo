@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Document</title>
+<link rel="stylesheet" type="text/css" href="slide.css">
+</head>
+
+<body>
+	<section id="wrap"></section>
+    <div id="wrap2"></div>
+	<script type="text/javascript" src="slide.js"></script>
+    <script type="text/javascript">
+    	document.getElementById('wrap').slide({
+			imgUrl: [
+				'https://img13.360buyimg.com/da/jfs/t7066/90/821113124/390525/d63017fb/59845b81Ne2c8265e.jpg',
+				'https://img1.360buyimg.com/da/jfs/t6097/246/8269554724/47328/aa0a77d1/5987d386N18492dfc.jpg',
+				'https://img20.360buyimg.com/da/jfs/t7192/219/656077485/107446/1a30c72d/5982e348N96d916a1.jpg',
+				'https://img1.360buyimg.com/da/jfs/t6097/246/8269554724/47328/aa0a77d1/5987d386N18492dfc.jpg'
+			],
+			speed: 8,
+			badgeBtn: true,
+			autoPlay: true,
+			flipBtn: true
+		});
+		
+		document.getElementById('wrap2').slide({
+			imgUrl: [
+				'https://img13.360buyimg.com/da/jfs/t7066/90/821113124/390525/d63017fb/59845b81Ne2c8265e.jpg',
+				'https://img1.360buyimg.com/da/jfs/t6097/246/8269554724/47328/aa0a77d1/5987d386N18492dfc.jpg',
+				'https://img20.360buyimg.com/da/jfs/t7192/219/656077485/107446/1a30c72d/5982e348N96d916a1.jpg',
+				'https://img1.360buyimg.com/da/jfs/t6097/246/8269554724/47328/aa0a77d1/5987d386N18492dfc.jpg'
+			],
+			speed: 15,
+			badgeBtn: true,
+			autoPlay: true,
+			flipBtn: false
+		});
+    </script>
+</body>
+</html>
